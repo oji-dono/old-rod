@@ -11,7 +11,7 @@ old-rod.py* is a custom python script for exploiting the Magento Shoplift Vulner
 *And counting because the main Magento install does not come with any previous patches installed. 
 *As such, Magento is propogating victims quicker than they're customers are patching, with new customers being potential targets for malicous actors.
 
-http://s16.postimg.org/nlc7i1of9/vic_Increase.jpg
+[url=http://postimg.org/image/7zuvy3cgx/][img]http://s16.postimg.org/7zuvy3cgx/vic_Increase.jpg[/img][/url]
 
 ***I have NO motive for writing this. I just wanted to write practical code that Does have the potential to affect another human's life, for better or worse.
 
