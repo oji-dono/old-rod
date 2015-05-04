@@ -8,8 +8,8 @@ old-rod.py* is a custom python script for exploiting the Magento Shoplift Vulner
 *oldrod is the fishing rod tool from Pokemon. In the Gen I Pokemon games, all it could catch was Lvl.5 Magikarp
 *Although, at the time of writing, there are 65,377 vulnerable Magento installs and counting^, They all seem like Lvl.5 Magikarp to me. All the Gyrados wisened up.
 
-**And counting because the main Magento install does not come with any previous patches installed. 
-**As such, Magento is propogating victims quicker than they're customers are patching, with new customers being potential targets for malicous actors.
+*And counting because the main Magento install does not come with any previous patches installed. 
+*As such, Magento is propogating victims quicker than they're customers are patching, with new customers being potential targets for malicous actors.
 
 ***I have NO motive for writing this. I just wanted to write practical code that Does have the potential to affect another human's life, for better or worse.
 
@@ -32,7 +32,6 @@ old-rod.py will run in Sneaky Sneaky mode. It will attempt to install PHP based 
 - hook.php {Navigate to 'victim.com/media/wysiwyg/hook.php?cmd=' Anything appended here will attempt to run as a system command if alls well}
 - sinker.php {Navigate to 'victim.com/media/wysiwyg/sinker.php' As having PHP files in a picture directory is suspicious, visiting this link will make them self-destruct.
 - Use hook.php system injection to drop a msfvenom-made PHP shell on the remote server then use sinker.php to remove the php files after you've setup a persistent entry.
-- 
 python old-rod.py -a -m
 
 old-rod.py will run in Going In Loud mode. It will attempt both of the above operations:
